@@ -1,4 +1,7 @@
 If you're still facing issues, please provide more information about the 
 state of your repository and the exact commands you're running, so I can 
 assist you further.
+<<<<<<< HEAD
 please checkout
+=======
+>>>>>>> origin/developer
