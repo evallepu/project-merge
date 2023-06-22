@@ -1,0 +1,50 @@
+pipeline{
+    agent any
+
+    stages{
+
+        stage('Build'){
+            steps{
+
+            }
+
+        }
+        stage('Test'){
+            steps{
+
+            }
+
+        }
+        stage('Sonar scanning'){
+            steps{
+
+            }
+
+        }
+        stage('Publish to artifactory'){
+            steps{
+
+            }
+
+        }
+        stage('Deploy to Dev'){
+            steps{
+
+            }
+
+        }
+        stage('Deploy to Test'){
+            steps{
+
+            }
+
+        }
+        stage('Deploy to Prod'){
+            steps{
+                
+            }
+
+        }
+
+    }
+}
