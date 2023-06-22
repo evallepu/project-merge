@@ -1,50 +1,48 @@
 pipeline{
     agent any
-
-    stages{
-
+    stages {
         stage('Build'){
             steps{
+                echo 'bulid'
 
             }
-
         }
         stage('Test'){
             steps{
+                echo 'test'
 
             }
-
+            
         }
-        stage('Sonar scanning'){
-            steps{
+         stage('sonar scanning'){
+             steps{
+                echo 'sonar'
 
-            }
-
+            }  
         }
-        stage('Publish to artifactory'){
-            steps{
+         stage('publish to artifactory'){
+             steps{
+                echo 'artifactory'
 
-            }
-
+            }            
         }
-        stage('Deploy to Dev'){
-            steps{
+         stage('deploy to dev'){
+             steps{
+                echo 'dev'
 
-            }
-
+            }            
         }
-        stage('Deploy to Test'){
-            steps{
+         stage('deploy to test'){
+             steps{
+                echo 'test'
 
-            }
-
+            }            
         }
-        stage('Deploy to Prod'){
-            steps{
-                
-            }
+         stage('deploy to stage'){
+             steps{
+                echo 'stage'
 
+            }            
         }
-
     }
 }
